@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: react-counter-app-repo     # set this to your Amazon ECR repository name
   ECS_SERVICE:  CounterApp             # set this to your Amazon ECS service name
   ECS_CLUSTER:   ReactApp           # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: ReactApp_TaskDefinition.json # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: ReactApp_tTaskDefinition.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME:   Counter-app       # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
